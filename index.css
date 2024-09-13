@@ -22,14 +22,20 @@ body{
     width:26%;
     max-width:1000px;
     min-width:400px;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     margin-left:auto;
     margin-right:auto;
 }
 .content h1{
     font-size:2em;
+    padding-top:20px;
     padding-bottom:20px;
+
+}
+.content h2{
+    word-spacing: 10px;
 }
 p.frame{
     border: 5px solid;
@@ -44,6 +50,58 @@ aside.fleft{
     padding-right: 20px;
     padding-bottom: 10px;
 }
+aside.fright{
+    float:right;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+span.padd{
+    padding-top:10px;
+    padding-bottom:10px;
+    display:block;
+    text-align:center;
+}
+span.red{
+    color: red;
+}
+a:link{
+    color: red;
+    text-decoration: underline;
+}
+a:hover{
+    color:yellow;
+    text-decoration:underline;
+}
+ul > li{
+    line-height: 30px;
+}
+ul.styled{
+    margin-left:35px;
+}
+ul.simple{
+    list-style: none;
+}
+.styled li:nth-child(2){
+    letter-spacing:5px;
+    color:cyan;
+}
+.simple li:nth-child(4){
+    visibility:hidden;
+    padding:0;
+    display:block;
+    height:10px;
+}
+.styled li:last-child{
+    padding-bottom: 12px;
+}
+.simple li:last-child{
+    padding-bottom: 6px;
+}
+ul>li:first-child{
+    padding-top:3px;
+}
+
+
 
 /*position для картинки либо для h1*/
 /*visibility для пропущенного в последнем списке предпоследнего вида текста*/
