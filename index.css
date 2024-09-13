@@ -45,6 +45,11 @@ p.frame{
     width:100px;
     height:100px;
 }
+p.par1{
+    display:block;
+    min-height:20%;
+    max-height:10%;
+}
 aside.fleft{
     float:left;
     padding-right: 20px;
@@ -100,8 +105,26 @@ ul.simple{
 ul>li:first-child{
     padding-top:3px;
 }
-
-
-
+table{
+    border: solid 1px silver;
+}
+td{
+    width:40px;
+    height:30px;
+    border:solid 1px silver;
+    text-align:center;
+    vertical-align: bottom;
+}
+tr:first-child>td:first-child{
+    background:green;
+}
+tr:last-child>td:last-child{
+    background:red;
+}
+.imgLike{
+    position: relative;
+    top: 15px;
+    left: 110px;
+}
 /*position для картинки либо для h1*/
 /*visibility для пропущенного в последнем списке предпоследнего вида текста*/
