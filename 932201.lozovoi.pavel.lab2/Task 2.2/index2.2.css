@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    text-align:left;
 }
 header{
     background-color: #EAEAEA;
@@ -13,18 +14,25 @@ header{
     background-color:#C8FC98;
     width:25%;
     height:25%;
+    max-height: 790px;
     min-width:200px;
+    overflow:auto;
     float:left;
     line-height:1.4em;
     padding: 10px;
     padding-top: 0px;
-    padding-right:2px;
 }
 .content1{
-    margin-left:200px;
+    margin-left:25%;
     padding:10px;
     padding-top: 0px;
     line-height:1.5em;
+}
+@media screen and (width < 600px){
+    .content1{
+        clear:both;
+        margin:0;
+    }
 }
 .right1{
     background-color:#FDE95E;

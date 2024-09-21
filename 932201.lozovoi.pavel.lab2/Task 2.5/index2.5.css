@@ -2,9 +2,10 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    text-align:left;
 }
 .content1{
-    max-width:600px;
+    max-width:500px;
     margin:auto;
     border-width:40px;
     border-color:white;
@@ -16,7 +17,7 @@
     color:white;
 }
 .content2{
-    max-width:600px;
+    max-width:500px;
     margin:auto;
     border-width:20px;
     border-color:blue;
