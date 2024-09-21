@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-align:left;
+}
+.content1{
+    width:600px;
+    margin:auto;
+    border-width:10px;
+    border-color:white;
+    border-style:solid;
+    background-color:blue;
+    color:white;
+}
+img{
+    position:relative;
+    float:right;
+    margin:10px;
+    left:10px;
+    top:-10px;
+}
