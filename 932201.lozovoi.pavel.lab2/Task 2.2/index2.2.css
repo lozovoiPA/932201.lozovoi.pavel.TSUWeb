@@ -14,9 +14,7 @@ header{
     background-color:#C8FC98;
     width:25%;
     height:25%;
-    max-height: 790px;
     min-width:200px;
-    overflow:auto;
     float:left;
     line-height:1.4em;
     padding: 10px;
@@ -28,7 +26,7 @@ header{
     padding-top: 0px;
     line-height:1.5em;
 }
-@media screen and (width < 600px){
+@media screen and (width < 650px){
     .content1{
         clear:both;
         margin:0;

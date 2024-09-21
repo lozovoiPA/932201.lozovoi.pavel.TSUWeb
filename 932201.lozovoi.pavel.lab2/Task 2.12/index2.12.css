@@ -47,4 +47,7 @@ section{
         width:75%;
         border: none;
     }
+    ul{
+        left:40px;
+    }
 }
