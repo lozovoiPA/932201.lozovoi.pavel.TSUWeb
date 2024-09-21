@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+}
+.d1{
+    width: 150px;
+    height: 100px;
+    background-color: aquamarine;
+
+    float:left;
+    margin: 20px;
+    margin-bottom:10px;
+}
+.d2{
+    box-sizing: border-box;
+    width: 100%;
+    background-color:bisque;
+
+    clear:both;
+    border:10px white solid;
+}

@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    float:left;
+    position:relative;
+    background-color:bisque;
+    width: 25%;
+    height: 100px;
+}
+ul{
+    position:absolute;
+    list-style:circle;
+    top: 20px;
+    left: 50px;
+}
+
+section{
+    position:relative;
+}
+
+.left1{
+    background-color:aqua;
+    width:100% - 10px;
+    height:100%;
+    margin: 10px;
+
+    border: 2px solid green;
+}
+
+.content1{
+    box-sizing:border-box;
+    background-color:darkgray;
+    margin-left:25%;
+    border-left: 5px aqua solid;
+    margin-right: 5px;
+    width:75% - 5px;
+    height:25%;
+}
+
+@media screen and (width < 600px){
+    .content1{
+        clear:both;
+        margin:0;
+        width:75%;
+        border: none;
+    }
+}

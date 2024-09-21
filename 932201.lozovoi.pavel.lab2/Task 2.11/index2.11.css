@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    text-align:left;
+}
+.content1{
+    width:100% - 10px;
+    height:265px;
+    margin:10px;
+    background-color:aqua;
+    
+    border: 2px solid green;
+}
+img{
+    float:right;
+    margin-left:10px;
+}
