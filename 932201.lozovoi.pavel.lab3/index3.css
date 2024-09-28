@@ -8,9 +8,12 @@ html{
 }
 body{
     position:relative;
+    top:-50px;
     height:100%;
 }
 header{
+    position:relative;
+    top:50px;
     display:table;
     background-color:green;
     width:100%;
@@ -21,6 +24,8 @@ header{
     color:white;
 }
 footer{
+    position:relative;
+    bottom:25px;
     display:table;
     background-color:black;
     width:100%;
@@ -59,15 +64,39 @@ p::first-letter{
     font-size:1.5em;
     color:red;
 }
+p::selection{
+    color:white;
+    background-color:green;
+}
 @media screen and (width < 768px){
     section{
         width:100%;
     }
 }
+nav{
+    position:absolute;
+    top:100px;
+    box-sizing:border-box;
+
+    color:white;
+    background-color:transparent;
+    
+    padding-right:20px;
+    width:200px;
+}
 ul{
     list-style:none;
+    text-decoration:underline;
+    
+    line-height:1.5em;
+
     margin-left:35px;
+    margin-top:30px;
 }
 ul > li{
     margin:10px;
+    cursor:pointer;
+}
+ul>li:hover{
+    background-color:green;
 }
