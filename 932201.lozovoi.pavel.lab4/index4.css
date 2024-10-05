@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html{
+    height:100%;
+}
+body{
+    position:relative;
+    height:100%;
+    background-color:#edeef0; 
+    
+    min-width:540px;
+}
+header{
+    position:fixed;
+    top:0px;
+    background-color:#507299;
+    width:100%;
+    height: 50px;
+    
+    font-size:1.5em;
+    color:white;
+}
+footer{
+    position:relative;
+    bottom:25px;
+    display:table;
+    background-color:white;
+    width:100%;
+    height: 25px;
+    
+    text-align:center;
+    color:#808080;
+    clear:both;
+}
+img.iLogo{
+    position:relative;
+    left:15%;
+    top:10px;
+}
+.tcCenter{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+section.wrapper{
+    max-width:740px;
+    margin:auto;
+    height:100%;
+}
+section.content{
+    box-sizing:border-box;
+    float:right;
+    text-align:justify;
+
+    border-left: 200px solid red;
+
+    border-top: 50px solid transparent;
+    border-bottom:25px solid black;
+    min-height:100%;
+}
+div{
+    box-sizing:border-box;
+    width:500px;
+    padding:20px;
+    padding-bottom:30px;
+    background-color:white;
+    border:1px solid #d0d0d0;
+    border-radius:12px;
+
+    margin:20px;
+}
+p.pContent{
+    border-bottom: 3px solid #d0d0d0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+p.pLike{
+    float:left;
+}
+p.pComment{
+    float:right;
+}
+img{
+    max-width:450px;
+}
+p::selection{
+    color:white;
+    background-color:green;
+}
+@media screen and (width < 740px){
+    section.wrapper{
+        width:100%;
+    }
+    section.content{
+        border-left: 0;
+        width:100%;
+    }
+}
+nav{
+    position:absolute;
+    top:100px;
+    box-sizing:border-box;
+
+    color:white;
+    background-color:transparent;
+    
+    padding-right:20px;
+    width:200px;
+}
+ul{
+    list-style:none;
+    text-decoration:underline;
+    
+    line-height:1.5em;
+
+    margin-left:35px;
+    margin-top:30px;
+}
+ul > li{
+    margin:10px;
+    cursor:pointer;
+}
+ul>li:hover{
+    background-color:green;
+}
