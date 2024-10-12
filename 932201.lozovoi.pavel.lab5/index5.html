@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index5.css">
+    <script src="script.js"></script>
+    <title>Task 5</title>
+</head>
+<body>
+    <section class="NewsContainer">
+        <div class="NewsBox">
+            <h2>Новость 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!</p>
+            <div class="TableWrapper ButtonWrapper">
+                <div class="TableCellWrapper ButtonWrapper">
+                    <div class="NewsButton" onmousedown="openPopup(1)">Открыть всплывающее окно</div>
+                </div>
+            </div>
+        </div>
+        <div class="NewsBox">
+            <h2>Новость 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!</p>
+            <div class="TableWrapper ButtonWrapper">
+                <div class="TableCellWrapper ButtonWrapper">
+                    <div class="NewsButton" onmousedown="openPopup(2)">Открыть всплывающее окно</div>
+                </div>
+            </div>
+        </div>
+        <div class="NewsBox">
+            <h2>Новость 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!</p>
+            <div class="TableWrapper ButtonWrapper">
+                <div class="TableCellWrapper ButtonWrapper">
+                    <div class="NewsButton" onmousedown="openPopup(3)">Открыть всплывающее окно</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="NewsPopup">
+        <div class="TableWrapper HeaderWrapper">
+            <div class="TableCellWrapper HeaderWrapper">
+                <h1>Новость <span class="NewsID">1</span></h1>
+            </div>
+        </div>
+        <span>Новость <span class="NewsID">1</span>:</span>
+        <p id="NewsText"></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.</p>
+    </div>
+    <div id="BG" onmousedown="closePopup()"></div>
+</body>
+</html>
