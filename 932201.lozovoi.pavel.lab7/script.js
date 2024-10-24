@@ -43,9 +43,9 @@ function crGeometry(type){
                 
                 div.style.fontSize = "0px"; div.style.lineHeight = "0%"; div.style.width = "0px";
                 div.style.borderTop = "0";
-                div.style.borderBottom = gm_size + "px solid blue";
-                div.style.borderLeft = gm_size / 2 + "px solid transparent";
-                div.style.borderRight = gm_size / 2 + "px solid transparent";
+                div.style.borderBottomWidth = gm_size + "px";
+                div.style.borderLeftWidth = gm_size / 2 + "px";
+                div.style.borderRightWidth = gm_size / 2 + "px";
                 break;
             case 2:
                 div.classList.add("circle");
