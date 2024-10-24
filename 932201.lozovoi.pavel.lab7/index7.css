@@ -3,66 +3,37 @@
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
 }
-.container{
-    width:900px;
-    height:500px;
-
-    margin:auto;
+html{
+    height:100%;
 }
-
-div.TableWrapper{
+body{
     width:100%;
-    display:table;
+    height:100%;
 }
-div.TableRowWrapper{
+div.Controls{
+    padding:10px;
+}
+input{
+    width:150px;
+}
+button{
+    padding:0px 5px;
+}
+
+#GeometryContainer{
     width:100%;
-    display:table-row;
-}
-div.TableCellWrapper{
-    display:table-cell;
-    text-align:center;
-    vertical-align:middle;
+    height:calc(100% - 58px);
 }
 
-.h_upMenu{
-    height:70px;
-}
-.upMenu{
-    background-color: red;
-    color:white;
-    font-size:1.4em;
-    width:calc(100% / 3);
-
+.shape{
+    opacity:0.8;
+    border:1px solid transparent;
+    position:absolute;
     box-sizing:border-box;
-    border:3px solid black;
-
-    user-select:none;
 }
-.upMenu:hover{
-    cursor:pointer;
+.square{
+    background-color: red;
 }
-
-.pictureContainer{
-    width:90%;
-    height:calc(100% - 70px);
-}
-#cat{
-    float:left;
-    background-color:blue;
-
-    z-index:0;
-}
-#dog{
-    float:right;
+.circle{
     background-color:green;
-
-    z-index:-1;
-    position:relative;
-    top:calc(70px - 100%);
-}
-.aImg{
-    width:550px;
-    height:350px;
-
-    padding:15px;
 }

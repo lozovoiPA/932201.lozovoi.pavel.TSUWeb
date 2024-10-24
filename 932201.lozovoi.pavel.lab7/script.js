@@ -1,96 +1,69 @@
-var cur_col = -1;   // -1 - left, 0 - center, 1 - right 
-
-var f_cont_w = "90%"    // full container width
-var s_cont_w = "50%"    // small container width
-var f_img_w = "550px"   // full image width
-var s_img_w = "100%"    // small image width
-
-// 0 - small width, 1 - full width
-const cont_w = ["50%", "90%"]; 
-const img_w = ["calc(100% - 30px)", "550px"];
-const dog_pos = ["0", "calc(70px - 100%)"];
-
-var cat;
-var dog;
-var aImg;
+var total = 0;
+var gm;
+var max;
+var min;
 function load(){
-    cat = document.getElementById("cat");
-    dog = document.getElementById("dog");
-
-    aImg = document.getElementsByClassName("aImg");
+    input = document.getElementById("input");
+    max = input.max;
+    min = input.min;
 }
-function changeWidths(w){
-    cat.style.width = cont_w[w];
-    dog.style.width = cont_w[w];
-    for (var i = 0; i < aImg.length; i++) {
-        aImg[i].style.width = img_w[w];
-    }
-    dog.style.top = dog_pos[w];
+function randomInt(maxV){
+    return Math.floor(Math.random() * maxV);
 }
-function changeCol(col){
-    if(cur_col != col){
-        switch(col){
-            case -1:
-                cat.style.zIndex = "0";
-                dog.style.zIndex = "-1";
+function crGeometry(type){
+    value = input.value;
+    gm = document.getElementsByClassName("shape");
 
-                aImg[0].style.float = "none";
+    let gmCont = document.getElementById("GeometryContainer");
+    let rect = gmCont.getBoundingClientRect();
+    let max_x = rect.right;
+    let max_y = rect.bottom;
+    let min_y = rect.top;
+    max_y -= min_y;
+    console.log(max_x, max_y, min_y);
+    for(let i = 0; i < value; i++){
+        let gm_size = randomInt(250) + 30;
+        let gm_x = randomInt(max_x - gm_size);
+        let gm_y = randomInt(max_y - gm_size) + min_y;
+
+        let div = document.createElement("div");
+        div.classList.add("shape");
+        div.style.height = (div.style.width = gm_size + "px");
+        div.style.top = gm_y + "px";
+        div.style.left = gm_x + "px";
+        
+        switch(type){
+            case 0:
+                div.classList.add("square");
                 break;
             case 1:
-                cat.style.zIndex = "-1";
-                dog.style.zIndex = "0";
-
-                aImg[0].style.float = "right";
+                div.classList.add("triangle");
+                div.style.width = "0px";
+                div.style.height = "0px";
+                
+                div.style.fontSize = "0px"; div.style.lineHeight = "0%"; div.style.width = "0px";
+                div.style.borderTop = "0";
+                div.style.borderBottom = gm_size + "px solid blue";
+                div.style.borderLeft = gm_size / 2 + "px solid transparent";
+                div.style.borderRight = gm_size / 2 + "px solid transparent";
+                break;
+            case 2:
+                div.classList.add("circle");
+                div.style.borderRadius = gm_size / 2 + "px";
                 break;
         }
+        gmCont.insertAdjacentElement("beforeend", div);
 
-        changeWidths(Math.abs(col));
-        cur_col = col;
-    }
-}
-function leftCol(){
-    if(cur_col != -1){
-        cat.style.zIndex = "0";
-        dog.style.zIndex = "-1";
-
-        if(cur_col == 0){
-            cat.style.width = f_cont_w;
-            dog.style.width = f_cont_w;
-            aImg.array.forEach(element => {
-                element.style.width = f_img_w;
-            });
-        }
-
-        cur_col = -1;
-    }
-}
-function centerCol(){
-    if(cur_col != 0){
-
-        {
-            cat.style.width = s_cont_w;
-            dog.style.width = s_cont_w;
-            aImg.array.forEach(element => {
-                element.style.width = s_img_w;
-            });
-        }
-
-        cur_col = 0;
-    }
-}
-function rightCol(){
-    if(cur_col != 1){
-        cat.style.zIndex = "-1";
-        dog.style.zIndex = "0";
-
-        if(cur_col == 0){
-            cat.style.width = f_cont_w;
-            dog.style.width = f_cont_w;
-            aImg.array.forEach(element => {
-                element.style.width = f_img_w;
-            });
-        }
-
-        cur_col = 1;
+        div.onclick = function(){
+            if(type == 1){
+                div.style.borderBottomColor = "yellow";
+            }
+            else{
+                div.style.backgroundColor = "yellow";
+            }
+        };
+        div.ondblclick = function(){
+            div.remove();
+        };
     }
 }
