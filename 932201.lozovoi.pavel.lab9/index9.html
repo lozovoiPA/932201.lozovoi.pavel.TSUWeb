@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index9.css">
+    <script src="script.js"></script>
+    <title>Task 9</title>
+</head>
+<body onload="load()">
+    <table>
+        <tr>
+            <td colspan="5"><input id="input" value="0" readonly></td>
+        </tr>
+        <tr>
+            <td><button class="button" onclick="addNum(7)">7</button></td>
+            <td><button class="button" onclick="addNum(8)">8</button></td>
+            <td><button class="button" onclick="addNum(9)">9</button></td>
+            <td><button class="button" onclick="addOper('/')">/</button></td>
+            <td><button class="button" onclick="clearc()">C</button></td>
+        </tr>
+        <tr>
+            <td><button class="button" onclick="addNum(4)">4</button></td>
+            <td><button class="button" onclick="addNum(5)">5</button></td>
+            <td><button class="button" onclick="addNum(6)">6</button></td>
+            <td><button class="button" onclick="addOper('*')">*</button></td>
+            <td><button class="button" onclick="removeLast()">←</button></td>
+        </tr>
+        <tr>
+            <td><button class="button" onclick="addNum(1)">1</button></td>
+            <td><button class="button" onclick="addNum(2)">2</button></td>
+            <td><button class="button" onclick="addNum(3)">3</button></td>
+            <td><button class="button" onclick="addOper('-')">-</button></td>
+            <td rowspan="2"><button id="bEquals" class="button" onclick="count()">=</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button id="b0" class="button" onclick="addNum(0)">0</button></td>
+            <td><button class="button" onclick="addDot()">.</button></td>
+            <td><button class="button" onclick="addOper('+')">+</button></td>
+        </tr>
+    </table>
+</body>
+</html>
