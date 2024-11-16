@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index10.css">
+    <script src="script.js"></script>
+    <title>Task 10</title>
+</head>
+<body onload="load()" onresize="screenResize()">
+    <img src="curtains.png" alt="Curtains" id="curtains" onclick="curtainsLeave()">
+    <img src="wizard.png" alt="Wizard" id="wizard">
+    <img src="hat.png" alt="Hat" id="hat" onclick="showAnimal()">
+    <img src="rabbit.png" alt="Rabbit" id="rabbit" onclick="hideAnimal()">
+    <img src="bird.png" alt="Bird" id="bird" onclick="hideAnimal()">
+
+    <div id="lamp" onmouseup="unholdLamp()" onmousedown="holdLamp()">
+        <div id="lampTop"></div>
+        <div id="lampTurnOn">
+            <div id="lampString"></div>
+            <div id="lampCircle"></div>
+        </div>
+        <div id="lampStick1"></div>
+        <div id="lampJoint1"></div>
+        <div id="lampStick2"></div>
+        <div id="lampJoint2"></div>
+        <div id="lampBottom"></div>
+    </div>
+
+    <div id="light"></div>
+</body>
+</html>
