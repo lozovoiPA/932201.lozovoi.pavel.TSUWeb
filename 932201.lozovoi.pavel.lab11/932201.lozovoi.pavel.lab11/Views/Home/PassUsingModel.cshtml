@@ -1,0 +1,28 @@
+﻿@model _932201.lozovoi.pavel.lab11.Models.RandomNum
+@{
+    ViewData["Title"] = "PassUsingModel";
+}
+
+<div>
+    <h1 class="display-6"><b>PassUsingModel</b></h1>
+    <ul class="no-marker">
+        <li><b>Random Value One : @Model.one</b></li>
+        <li><b>Random Value Two : @Model.two</b></li>
+        <li>
+            <b>Sum :</b><br />
+            &emsp; @Model.one + @Model.two = @Model.sum;
+        </li>
+        <li>
+            <b>Sub :</b><br />
+            &emsp; @Model.one - @Model.two = @Model.sub;
+        </li>
+        <li>
+            <b>Mult :</b><br />
+            &emsp; @Model.one * @Model.two = @Model.mult;
+        </li>
+        <li>
+            <b>Sum :</b><br />
+            &emsp; @Model.one / @Model.two @Model.divResult.
+        </li>
+    </ul>
+</div>

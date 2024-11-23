@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|c:\\users\\user\\webtsu\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\views\\home\\passusingmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|solutionrelative:932201.lozovoi.pavel.lab11\\views\\home\\passusingmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|c:\\users\\user\\webtsu\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\views\\home\\accessservicedirectly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|solutionrelative:932201.lozovoi.pavel.lab11\\views\\home\\accessservicedirectly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|c:\\users\\user\\webtsu\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\views\\home\\passusingviewbag.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|solutionrelative:932201.lozovoi.pavel.lab11\\views\\home\\passusingviewbag.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|c:\\users\\user\\webtsu\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\views\\home\\passusingviewdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|solutionrelative:932201.lozovoi.pavel.lab11\\views\\home\\passusingviewdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|c:\\users\\user\\webtsu\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|solutionrelative:932201.lozovoi.pavel.lab11\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|c:\\users\\user\\webtsu\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|solutionrelative:932201.lozovoi.pavel.lab11\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|c:\\users\\user\\webtsu\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620DA5D2-A2D4-4C07-81C4-70BD6C62D7F5}|932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11.csproj|solutionrelative:932201.lozovoi.pavel.lab11\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccessServiceDirectly.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Home\\AccessServiceDirectly.cshtml",
+              "RelativeDocumentMoniker": "932201.lozovoi.pavel.lab11\\Views\\Home\\AccessServiceDirectly.cshtml",
+              "ToolTip": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Home\\AccessServiceDirectly.cshtml",
+              "RelativeToolTip": "932201.lozovoi.pavel.lab11\\Views\\Home\\AccessServiceDirectly.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T11:41:38.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PassUsingViewData.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingViewData.cshtml",
+              "RelativeDocumentMoniker": "932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingViewData.cshtml",
+              "ToolTip": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingViewData.cshtml",
+              "RelativeToolTip": "932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingViewData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T11:41:29.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PassUsingViewBag.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingViewBag.cshtml",
+              "RelativeDocumentMoniker": "932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingViewBag.cshtml",
+              "ToolTip": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingViewBag.cshtml",
+              "RelativeToolTip": "932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingViewBag.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T11:41:23.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PassUsingModel.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingModel.cshtml",
+              "RelativeDocumentMoniker": "932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingModel.cshtml",
+              "ToolTip": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingModel.cshtml",
+              "RelativeToolTip": "932201.lozovoi.pavel.lab11\\Views\\Home\\PassUsingModel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T11:40:59.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "932201.lozovoi.pavel.lab11\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "932201.lozovoi.pavel.lab11\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-23T11:34:03.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "932201.lozovoi.pavel.lab11\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "932201.lozovoi.pavel.lab11\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T11:33:09.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "932201.lozovoi.pavel.lab11\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\webTSU\\lab1\\932201.lozovoi.pavel.lab11\\932201.lozovoi.pavel.lab11\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "932201.lozovoi.pavel.lab11\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T09:55:26.306Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

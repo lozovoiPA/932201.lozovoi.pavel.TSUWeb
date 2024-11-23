@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "AccessServiceDirectly";
+    @inject _932201.lozovoi.pavel.lab11.Services.CalcService Service;
+}
+
+<div>
+    <h1 class="display-6"><b>AccessServiceDirectly</b></h1>
+    <ul class="no-marker">
+        <li><b>Random Value One : @Service.one</b></li>
+        <li><b>Random Value Two : @Service.two</b></li>
+        <li>
+            <b>Sum :</b><br />
+            &emsp; @Service.one + @Service.two = @Service.Sum();
+        </li>
+        <li>
+            <b>Sub :</b><br />
+            &emsp; @Service.one - @Service.two = @Service.Sub();
+        </li>
+        <li>
+            <b>Mult :</b><br />
+            &emsp; @Service.one * @Service.two = @Service.Mult();
+        </li>
+        <li>
+            <b>Sum :</b><br />
+            &emsp; @Service.one / @Service.two @Service.DivResult();
+        </li>
+    </ul>
+</div>

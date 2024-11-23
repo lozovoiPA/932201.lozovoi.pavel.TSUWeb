@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h1 class="display-6"><b>Calc Service Demonstration</b></h1>
+    <ul>
+        <li><a asp-area="" asp-controller="Home" asp-action="PassUsingModel">Using Model Calc</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="PassUsingViewData">Using ViewData Calc</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="PassUsingViewBag">Using ViewBag Calc</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="AccessServiceDirectly">Using Service Injection Calc</a></li>
+    </ul>
+</div>

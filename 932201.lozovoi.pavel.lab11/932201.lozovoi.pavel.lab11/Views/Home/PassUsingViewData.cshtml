@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "PassUsingViewData";
+    var vd = ViewData["RandomNum"] as RandomNum;
+}
+
+<div>
+    <h1 class="display-6"><b>PassUsingViewData</b></h1>
+    <ul class="no-marker">
+        <li><b>Random Value One : @vd.one</b></li>
+        <li><b>Random Value Two : @vd.two</b></li>
+        <li>
+            <b>Sum :</b><br />
+            &emsp; @vd.one + @vd.two = @vd.sum;
+        </li>
+        <li>
+            <b>Sub :</b><br />
+            &emsp; @vd.one - @vd.two = @vd.sub;
+        </li>
+        <li>
+            <b>Mult :</b><br />
+            &emsp; @vd.one * @vd.two = @vd.mult;
+        </li>
+        <li>
+            <b>Sum :</b><br />
+            &emsp; @vd.one / @vd.two @vd.divResult.
+        </li>
+    </ul>
+</div>

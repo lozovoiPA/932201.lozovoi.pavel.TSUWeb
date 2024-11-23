@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "PassUsingViewBag";
+    var vb = ViewBag.RandomNum;
+}
+
+<div>
+    <h1 class="display-6"><b>PassUsingViewBag</b></h1>
+    <ul class ="no-marker">
+        <li><b>Random Value One : @vb.one</b></li>
+        <li><b>Random Value Two : @vb.two</b></li>
+        <li>
+            <b>Sum :</b><br />
+            &emsp; @vb.one + @vb.two = @vb.sum;
+        </li>
+        <li>
+            <b>Sub :</b><br />
+            &emsp; @vb.one - @vb.two = @vb.sub;
+        </li>
+        <li>
+            <b>Mult :</b><br />
+            &emsp; @vb.one * @vb.two = @vb.mult;
+        </li>
+        <li>
+            <b>Sum :</b><br />
+            &emsp; @vb.one / @vb.two @vb.divResult.
+        </li>
+    </ul>
+</div>
