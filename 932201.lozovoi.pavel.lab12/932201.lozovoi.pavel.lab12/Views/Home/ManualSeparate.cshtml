@@ -1,0 +1,35 @@
+﻿@{
+    if (ViewBag.FormSubmitted == null || !ViewBag.FormSubmitted)
+    {
+        ViewData["Title"] = "Manual Separate";
+    }
+    else
+    {
+        ViewData["Title"] = "Result";
+    }
+}
+
+@if (ViewBag.FormSubmitted == null || !ViewBag.FormSubmitted)
+{
+    <form asp-controller="Home" asp-action="ManualSeparate" method="post" name="formManualSeparate">
+        <h1 class="display-6"><b>Manual (separate handlers)</b></h1>
+        <input type="number" name="one" />
+        <select name="oper">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" name="two" />
+        <input type="submit" value="Submit" />
+    </form>
+}
+else
+{
+    <div>
+        <h1 class="display-6"><b>Result</b></h1>
+        <h1 class="display-6">@ViewBag.one @ViewBag.oper @ViewBag.two @ViewBag.Result</h1>
+    </div>
+    ViewBag.FormSubmitted = false;
+}
+

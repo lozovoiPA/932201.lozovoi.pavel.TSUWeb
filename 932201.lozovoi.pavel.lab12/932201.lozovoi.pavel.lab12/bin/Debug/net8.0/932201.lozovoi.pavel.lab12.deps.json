@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "932201.lozovoi.pavel.lab12/1.0.0": {
+        "runtime": {
+          "932201.lozovoi.pavel.lab12.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "932201.lozovoi.pavel.lab12/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
