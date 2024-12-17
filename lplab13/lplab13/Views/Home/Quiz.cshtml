@@ -1,0 +1,34 @@
+﻿@model lplab13.Models.QuestionList
+@{
+    ViewData["Title"] = "Hello Quiz";
+}
+
+@if (ViewBag.QuizState == 0)
+{
+    <div>
+        <h1 class="display-6">Quiz</h1>
+        <form method="post">
+            <span>@Model.one[Model.count-1] @Model.oper[Model.count-1] @Model.two[Model.count-1] =</span><br />
+            <input name="answer" class="padding"/>@Html.ValidationMessage("answerError", new { @class = "error-msg" })<br />
+            <input type="submit" value="Next" asp-route-step="Next" class="padding btn btn-outline-secondary"/>
+            <input type="submit" value="Finish" asp-route-step="Finish" class=" btn btn-outline-primary padding" />
+        </form>
+    </div>
+}
+else if(ViewBag.QuizState == 1)
+{
+    <div>
+        <h1 class="display-6">Quiz results</h1>
+        <span class="subtitle">Right answers: @Model.r_answ out of @Model.count</span><br />
+        @for(int i = 0; i < Model.count; i++){
+            <span>@Model.one[i] @Model.oper[i] @Model.two[i] = @Model.usr_answ[i]</span><br />
+        }
+    </div>
+}
+else if(ViewBag.QuizState == -1)
+{
+    <div>
+        <h1 class="display-6">Quiz results</h1>
+        <span class="subtitle">You didn't finish a quiz yet!</span><br />
+    </div>
+}

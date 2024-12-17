@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("932201.lozovoi.pavel.lab13__")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+103973fc06092babaaed6715cff2ae8c139d207c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39236254f44fcf85836ae96d835d4a551a8203a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("932201.lozovoi.pavel.lab13__")]
 [assembly: System.Reflection.AssemblyTitleAttribute("932201.lozovoi.pavel.lab13__")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
